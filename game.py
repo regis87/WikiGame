@@ -1,6 +1,9 @@
 
 def load_graph():
     g = {}
+    
+    lower = 100
+    upper = 2000
 
     lines = list(open('links-simple-sorted.txt'))
 
